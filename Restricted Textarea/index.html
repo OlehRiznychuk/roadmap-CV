@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restricted Textarea</title>
+  </head>
+  <body>
+    <textarea
+      id="message"
+      placeholder="Start typing ..."
+      maxlength="250"
+      name="message"
+      rows="6"
+      required
+      class="border-normal"
+    ></textarea>
+    <div id="messagecharcounter" class="charcounter text-normal">
+      <span id="typedchar">0</span>
+      <span id="maxchar">/ 250</span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
