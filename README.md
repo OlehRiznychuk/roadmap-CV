@@ -12,3 +12,4 @@
 [Tabs](https://roadmap.sh/projects/simple-tabs)
 [Cookie consent](https://roadmap.sh/projects/cookie-consent)
 [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea)
+[Accordion](https://roadmap.sh/projects/accordion)
