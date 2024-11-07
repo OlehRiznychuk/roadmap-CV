@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 90%;
+  max-height: 800px;
+  max-width: 800px;
+  padding: 20px;
+}
+.title {
+  width: 600px;
+  display: flex;
+  justify-content: left;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.progress {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  background: #ddd;
+  height: 30px;
+  width: 600px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.progress-done {
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  height: 100%;
+  background: linear-gradient(to left,rgb(0, 0, 0),
+              rgb(240, 240, 240));
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  width: 0;
+  box-shadow: 0 0 3px -5px rgb(255, 255, 255), 0 3px 150px
+              rgb(255, 255, 255);
+  transition: width .5s ease;
+}
+.card-wrapper {
+  padding: 5px;
+  min-width: 600px;
+  min-height: 40vh;
+  max-width: 600px;
+  max-height: 300px;
+  border: 2px solid #d2d2d2;
+  border-radius: 15px;
+}
+.card-question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #e8e8e8;
+  min-width: 100%;
+  min-height: 30vh;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.card-ui {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  padding: 15px;
+}
+.card-ui p {
+  cursor: pointer;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.ui-btn {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.ui-btn.right {
+  margin-left: 30px;
+}
